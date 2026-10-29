@@ -1,0 +1,7 @@
+numpy
+pandas
+pyarrow
+scikit-learn
+lightgbm
+torch        # CPU build is sufficient
+matplotlib

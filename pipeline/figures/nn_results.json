@@ -1,0 +1,82 @@
+{
+ "ablation": {
+  "naive": {
+   "aggressor": {
+    "precision": 0.096,
+    "recall": 0.205,
+    "f1": 0.13
+   },
+   "victim": {
+    "precision": 0.144,
+    "recall": 0.084,
+    "f1": 0.106
+   },
+   "events": 10
+  },
+  "plain": {
+   "aggressor": {
+    "precision": 0.989,
+    "recall": 0.409,
+    "f1": 0.579
+   },
+   "victim": {
+    "precision": 0.996,
+    "recall": 0.295,
+    "f1": 0.456
+   },
+   "events": 10
+  },
+  "robust": {
+   "aggressor": {
+    "precision": 0.985,
+    "recall": 0.921,
+    "f1": 0.952
+   },
+   "victim": {
+    "precision": 0.993,
+    "recall": 0.802,
+    "f1": 0.887
+   },
+   "events": 12
+  }
+ },
+ "rows": 20000,
+ "events": 12,
+ "agg_rows": 215,
+ "vic_rows": 860,
+ "aggressor": {
+  "tp": 198,
+  "fp": 3,
+  "fn": 17,
+  "precision": 0.985,
+  "recall": 0.921,
+  "f1": 0.952
+ },
+ "victim": {
+  "tp": 690,
+  "fp": 5,
+  "fn": 170,
+  "precision": 0.993,
+  "recall": 0.802,
+  "f1": 0.887
+ },
+ "events_correct": 12,
+ "events_wrong_culprit": 0,
+ "local_true": 388,
+ "local_pred_counts": {
+  "node-local hotspot": 241,
+  "none": 140,
+  "victim": 4,
+  "aggressor": 3
+ },
+ "false_victim_on_local": 4,
+ "pred_counts": {
+  "none": 18774,
+  "victim": 695,
+  "node-local hotspot": 330,
+  "aggressor": 201
+ },
+ "consensus_flagged": 499,
+ "victim_consensus_recall": 0.084,
+ "summary_events": 13
+}

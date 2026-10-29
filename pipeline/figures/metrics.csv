@@ -1,0 +1,8 @@
+,flagged,precision,recall,f1
+"Isolation
+Forest",544,0.739,1.0,0.85
+LOF,600,0.025,0.037,0.03
+DBSCAN,360,0.986,0.883,0.932
+Autoencoder,600,0.193,0.289,0.232
+"Consensus
+(>=2 votes)",538,0.669,0.896,0.766
